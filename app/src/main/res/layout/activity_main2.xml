@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2"
+    android:background="#fdfd66">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Review"
+        android:textColor="#f00"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="24sp">
+    </TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/stroke2"
+        android:gravity="center"
+        android:hint="This is an edit box"
+        android:textColor="#f00"
+        android:textColorHint="#ff00">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="150dp"
+        android:text="Button"
+        android:textColor="#ff00">
+
+    </Button>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="300dp">
+
+        <RadioButton
+            android:id="@+id/radio_1"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="Excellent Work"
+            android:textColor="#f00"
+            android:padding="12dp"/>
+
+        <RadioButton
+            android:id="@+id/radio_2"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="Good Work"
+            android:textColor="#f00"
+            android:padding="12dp"/>
+
+        <RadioButton
+            android:id="@+id/radio_3"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="Poor Work"
+            android:textColor="#f00"
+            android:padding="12dp"/>
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/selected_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#f00"
+        android:text="Excellent work no complaints"
+        android:layout_marginTop="450dp">
+
+    </CheckBox>
+    <CheckBox
+        android:id="@+id/selected_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#f00"
+        android:text="Good work can be better"
+        android:layout_marginTop="500dp">
+    </CheckBox>
+    <CheckBox
+        android:id="@+id/selected_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#f00"
+        android:text="Poor work need a lot of improvemnet"
+        android:layout_marginTop="550dp"/>
+
+</RelativeLayout>
